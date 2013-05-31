@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="0f9fb301-222d-472f-84fa-44c3864fe26e" Publisher="CN=Kamil" Version="1.0.0.0" />
+  <Properties>
+    <DisplayName>HashGenerator</DisplayName>
+    <PublisherDisplayName>Kamil Cieślak</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2.1</OSMinVersion>
+    <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="HashGenerator.App">
+      <VisualElements DisplayName="Hash Generator" Logo="Assets\Logo.png" SmallLogo="Assets\SmallLogo.png" Description="Generator skrótów dla wpisywanego tekstu" ForegroundText="light" BackgroundColor="#777777">
+        <DefaultTile ShowName="allLogos" ShortName="Hash Generator" />
+        <SplashScreen Image="Assets\SplashScreen.png" />
+      </VisualElements>
+    </Application>
+  </Applications>
+</Package>
